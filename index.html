@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>TienDatFE</title>
+    <link rel="icon" type="image/x-icon" href="./assets/img/logo.jpg">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/font/themify-icons-font/themify-icons/themify-icons.css">
     <script src="https://kit.fontawesome.com/6cc3d9a411.js" crossorigin="anonymous"></script>
@@ -13,19 +14,19 @@
         <div id="header">
             <!-- Begin: Nav -->
             <ul id="nav">
-                <li><a href="">Home</a></li>
-                <li><a href="">Band</a></li>
-                <li><a href="">Tour</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#band">Band</a></li>
+                <li><a href="#tour">Tour</a></li>
+                <li><a href="#contact">Contact</a></li>
                 <li>
                     <a href="#">
                         More 
                         <i class="nav-arrow-down ti-angle-down"></i>
                     </a>
                     <ul class="subnav">
-                        <li><a href="">Merchandise</a></li>
-                        <li><a href=""></a>Extras</li>
-                        <li><a href=""></a>Media</li>
+                        <li><a href="#">Merchandise</a></li>
+                        <li><a href="#"></a>Extras</li>
+                        <li><a href="#"></a>Media</li>
                     </ul>
                 </li>
             </ul>
@@ -50,7 +51,7 @@
         <!-- Begin: Content -->
         <div id="content">
             <!--About section-->
-            <div class="content-section">
+            <div id="band" class="content-section">
                 <h2 class="section-heading">THE BAND</h2>
                 <p class="section-sub-heading">We love music</p>
                 <p class="about-text">
@@ -74,7 +75,7 @@
                 </div>              
             </div>
             <!--Tour section-->
-            <div class="tour-section">
+            <div id="tour" class="tour-section">
                 <div class="content-section">
                     <h2 class="section-heading text-white">TOUR DATES</h2>
                     <p class="section-sub-heading text-white">Remember to book your tickets</p>
@@ -118,7 +119,7 @@
                 </div>
             </div>
             <!-- Begin: Contact section-->
-            <div class="content-section">
+            <div id="contact" class="content-section">
                 <h2 class="section-heading">CONTACT</h2>
                 <p class="section-sub-heading">Fan? Drop note!</p>
 
@@ -156,22 +157,25 @@
             <div class="map-section">
                 <img src="./assets/img/map.jpg" alt="Map">
             </div>
+
+            <div id="footer">
+                <div class="social-list">
+                    <a href=""><i class="ti-facebook"></i></a>
+                    <a href=""><i class="ti-instagram"></i></a>
+                    <a href=""><i class="ti-youtube"></i></a>
+                    <a href=""><i class="ti-pinterest"></i></a>
+                    <a href=""><i class="ti-twitter"></i></a>
+                    <a href=""><i class="ti-linkedin"></i></a>
+                </div>
+                <p class="copyright">Powered by <a href="">w3.css</a></p>
+        
+            </div>
+
         </div>
         <!-- End: Content -->
         
     </div>
-    <div id="footer">
-        <div class="social-list">
-            <a href=""><i class="ti-facebook"></i></a>
-            <a href=""><i class="ti-instagram"></i></a>
-            <a href=""><i class="ti-youtube"></i></a>
-            <a href=""><i class="ti-pinterest"></i></a>
-            <a href=""><i class="ti-twitter"></i></a>
-            <a href=""><i class="ti-linkedin"></i></a>
-        </div>
-        <p class="copyright">Powered by <a href="">w3.css</a></p>
-
-    </div>
+    
 
     <div class="modal js-modal">
         <div class="modal-container js-modal-container">
